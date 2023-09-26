@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="alerta()"> enviar </button>
+    <br>
+    <br>
+    <hr>
+
+    <script src="main.js"></script>
+    <hr>
+    <br>
+    <br>
+    <h1> IMAGENS </h1>
+    <img id="s" onmouseover="alterarImagem()" onmouseleave="voltarImagem()" src="https://blog.livelle.com.br/wp-content/uploads/2023/05/frase-por-do-sol-mar.png" alt="" width="500" height="400">
+    <hr>
+    <br>
+    <br>
+    <h1> CONHECIMENTO GERAIS DO BRASIL </h1>
+    <div> quem descobriu o brasil ? </div>
+    <input type="text" id="brasil">
+    <button onclick=" enviar()"> enviar </button>
+    <div id="resposta1"></div>
+    <br>
+    <br>
+    <div> quantas regiões possuie o brasil? </div>
+    <input type="number" id="regioes">
+    <button onclick=" enviar2()"> enviar </button>
+    <div id="resposta2"></div>
+    <hr>
+    <br>
+    <br>
+    <h1> INDÍCE DE MASSA CORPÓREA</h1>
+    <p> nome: <input type="text" id="nome" placeholder="insira seu nome aqui"></p>
+    <p> peso: <input type="number" id="peso" placeholder="insira seu peso aqui"></p>
+    <p> altura: <input type="number" id="altura" placeholder="insira sua altura aqui"></p>
+    <button onclick="calcular()"> calcular</button>
+    <br>
+    <br>
+    <div id="valores"> ***** </div>
+    <div id="msg"> *****</div>
+
+
+
+</body>
+</html>
